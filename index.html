@@ -8,6 +8,7 @@
 </head>
 <body>
     hello world!!!!!
+    <button>클릭</button>
     <table border=1>
         <tr>
             <td>이름</td>
@@ -20,5 +21,11 @@
             <td>홍길순</td>
             <td>20011</td>
     </table>
+    <script>
+        document.querySelector('button')
+                .addEventListener('click',()=>{
+                    window.alert('hi');
+                },false);
+    </script>
 </body>
 </html>
